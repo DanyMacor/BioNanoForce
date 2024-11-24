@@ -1,0 +1,280 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+body{
+    font-family: "Ubuntu", sans-serif;
+}
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.header {
+    background-image: url(img/bg-head.jpg);
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 70vh;
+    align-items: center;
+    display: flex;
+}
+
+.menu {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1000;
+}
+
+.header img{
+    height: 150px;
+    margin-left: 60px;
+}
+
+.menu .navbar ul li {
+    position: relative;
+    float: left;
+    display: flex;
+}
+
+.menu .navbar ul li a{
+    font-size: 8px;
+    padding: 20px;
+    color: blue;
+    display: block;
+    font-weight: 600;
+}
+
+#menu {
+    display: flex;
+}
+
+.header-txt {
+    text-align: center;
+}
+
+.header-txt h1 {
+    color: rgb(9, 9, 54);
+    font-size: 55px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    padding: 250px;
+}
+
+.header-txt p {
+    font-size: 25px;
+    padding: 0 250px;
+    margin-bottom: 45px;
+}
+
+.general {
+    padding: 50px 0;
+    text-align: center;
+}
+
+.general-content {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 55px;
+}
+
+.general-1 {
+    background-image: url(img/general1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 450px;
+    padding: 170px 55px;
+    color: white;
+}
+.general-2 {
+    background-image: url(img/general2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 450px;
+    padding: 170px 55px;
+    color: white;
+}
+.general-3 {
+    background-image: url(img/general3.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 450px;
+    padding: 170px 55px;
+    color: white;
+}
+.general-4 {
+    background-image: url(img/general4.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 450px;
+    padding: 170px 55px;
+    color: white;
+}
+.general-5 {
+    background-image: url(img/Adturo.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 450px;
+    padding: 170px 55px;
+}
+.general-6 {
+    background-image: url(img/Ame.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 450px;
+    padding: 170px 55px;
+}
+.general-7 {
+    background-image: url(img/Esgar.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 450px;
+    padding: 170px 55px;
+}
+.general-8 {
+    background-image: url(img/yop.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 450px;
+    padding: 170px 55px;
+}
+
+h2 {
+    font-size: 90px;
+    text-transform: uppercase;
+    color: rgb(9, 9, 54);
+}
+
+.txt h3{
+ font-size: 28px;
+ text-transform: uppercase;
+ margin-bottom: 10px;
+}
+
+.txt p {
+    color: rgb(59, 58, 58);
+    font-size: 26px;
+}
+
+.info-1 {
+    padding: 250px 0;
+    background-image: url(img/info1.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.info-content {
+    text-align: center;
+}
+
+.info-content h2, span{
+    color: rgb(209, 206, 206);
+}
+
+.info-content p{
+    color: rgb(208, 248, 210);
+    font-size: 20px;
+    text-align: center;
+    padding-top: 35px;
+}
+
+.info-2{
+    padding: 250px 0;
+    background-image: url(img/bg-testi.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.testi{
+    display: flex;
+    align-items: center;
+    text-align: left;
+    margin-top: 35px;
+}
+
+.testi-left{
+    width: 50%;
+    padding-right: 25px;
+}
+
+.testi-right{
+    width: 50%;
+    padding-left: 35px;
+}
+
+.testi-txt{
+    margin-bottom: 25px;
+}
+
+.testi-txt img{
+    width: 100px;
+    margin-bottom: 15px;
+}
+
+.testi-txt h3{
+font-size: 20px;
+color: white;
+}
+
+.testi-txt p {
+    color: white;
+    font-size: 16px;
+}
+
+.footer{
+    padding: 100px 0 0 0;
+    text-align: center;
+}
+
+.form {
+    margin-top: 35px;
+}
+
+.campo{
+    margin-right: 10px;
+    padding: 17px 35px;
+    border: 2px solid ;
+    outline: none;
+    color: #1b293a;
+}
+
+.campo::placeholder{
+    color: grey;
+}
+
+.btn{
+    padding: 17px 35px;
+    border: 2px solid;
+}
+
+.footer-txt{
+    margin-top: 100px;
+    border-top: 1px solid;
+    padding: 20px 0;
+}
+
+.footer-txt p {
+    font-size: 16px;
+}

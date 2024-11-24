@@ -1,0 +1,214 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+body{
+    font-family: "Ubuntu", sans-serif;
+}
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.header {
+    background-image: url(img/bg-head.jpg);
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 70vh;
+    align-items: center;
+    display: flex;
+}
+
+.menu {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1000;
+}
+
+.header img{
+    height: 150px;
+    margin-left: 60px;
+}
+
+.menu .navbar ul li {
+    position: relative;
+    float: left;
+}
+
+.menu .navbar ul li a{
+    font-size: 8px;
+    padding: 20px;
+    color: blue;
+    display: block;
+    font-weight: 600;
+}
+
+#menu {
+    display: none;
+}
+
+.header-txt {
+    text-align: center;
+}
+
+.header-txt h1 {
+    font-size: 55px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    padding: 250px;
+}
+
+.productos{
+    padding: 100px 0;
+
+}
+
+.productos-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.info-box{
+    flex-basis: 600%;
+    display: flex;
+}
+
+.card-1{
+    flex-basis: calc(12% - 100px);
+    background-color: rgba(133, 105, 105, 0.345);
+    border-radius: 25px;
+    margin-left: 250px;
+    margin-right: 70px;
+    text-align: center;
+    padding: 20px;
+}
+
+.card-1 img{
+    width: 200px;
+    margin-bottom: 70px;
+}
+
+.card-1 h2{
+    font-size: 20px;
+    margin: 0 0 10px 0;
+}
+
+.card-1 p {
+    margin-bottom: 10px;
+    text-align: center justify;
+    padding-top: 12px;
+}
+
+.card-1 span{
+    font-size: 700;
+}
+
+.card-2 {
+    flex-basis: calc(12% - 100px);
+    background-color: rgba(133, 105, 105, 0.345);
+    border-radius: 25px;
+    margin-left: 250px;
+    margin-right: 70px;
+    text-align: center;
+    padding: 20px;
+}
+
+.card-2 img{
+    width: 188px;
+    margin-bottom: 70px;
+}
+
+.card-2 h2{
+    font-size: 20px;
+    margin: 0 0 10px 0;
+}
+
+.card-2 p{
+    margin-bottom: 10px;
+    text-align: center justify;
+    padding-top: 12px;
+}
+
+.card-2 span{
+    font-size: 700;
+}
+
+.card-3{
+    flex-basis: calc(12% - 100px);
+    background-color: rgba(133, 105, 105, 0.345);
+    border-radius: 25px;
+    margin-left: 250px;
+    margin-right: 50px;
+    text-align: center;
+    padding: 20px;
+}
+
+.card-3 img{
+    width: 150px;
+    margin-bottom: 70px;
+}
+
+.card-3 h2{
+    font-size: 20px;
+    margin: 0 0 10px 0;
+}
+
+.card-3 p{
+    margin-bottom: 10px;
+    text-align: center justify;
+    padding-top: 12px;
+}
+
+.card-3 span{
+    font-size: 700;
+}
+
+.footer{
+    padding: 100px 0 0 0;
+    text-align: center;
+}
+
+.form {
+    margin-top: 35px;
+}
+
+.campo{
+    margin-right: 10px;
+    padding: 17px 35px;
+    border: 2px solid ;
+    outline: none;
+    color: #1b293a;
+}
+
+.campo::placeholder{
+    color: grey;
+}
+
+.btn{
+    padding: 17px 35px;
+    border: 2px solid;
+}
+
+.footer-txt{
+    margin-top: 100px;
+    border-top: 1px solid;
+    padding: 20px 0;
+}
+
+.footer-txt p {
+    font-size: 16px;
+}
